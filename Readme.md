@@ -6,6 +6,11 @@
 
 ---
 
+## Live Demo Admin Credentials
+- **Email:** `testadmin@gmail.com`
+- **Password:** `Threadcounty@26`
+
+---
 ## Table of Contents
 
 1. [Project Overview](#1-project-overview)
