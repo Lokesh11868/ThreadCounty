@@ -37,7 +37,11 @@ async function request(url: string, options: RequestInit = {}, isMultipart = fal
   };
 
   try {
-    const res = await fetch(url, config);
+    const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+    // Bypass Vercel API proxy by going directly to Render domain
+    const fullUrl = url.startsWith('http') ? url : `${baseUrl.replace(/\/$/, '')}${url}`;
+    
+    const res = await fetch(fullUrl, config);
     if (!res.ok) {
       const errData = await res.json().catch(() => ({}));
       
