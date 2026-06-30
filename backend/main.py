@@ -55,7 +55,7 @@ class SubscriptionUpdate(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Please Refer Github Repo to Find 'LIVE DEMO' Link! Backend Server Running Succesfully! "}
+    return {"message": "Here is the LIVE DEMO LINK 'https://thread-county-frontend-phi.vercel.app/',Backend Server Running Succesfully! "}
 
 @app.get("/api/health")
 def health_check():
