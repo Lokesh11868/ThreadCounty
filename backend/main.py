@@ -55,7 +55,7 @@ class SubscriptionUpdate(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to Thread County API (Python)"}
+    return {"message": "Backend Server Running Succesfully! Please Refer Github Repo to Find LIVE DEMO"}
 
 @app.get("/api/health")
 def health_check():
