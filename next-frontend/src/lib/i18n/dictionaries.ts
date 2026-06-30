@@ -1,0 +1,77 @@
+export const dictionaries = {
+  en: {
+    dashboard: "Dashboard",
+    history: "History",
+    upload: "Upload Fabric",
+    chatbot: "AI Chatbot",
+    analytics: "Analytics",
+    compare: "Compare",
+    logout: "Log out",
+    welcome: "Welcome to ThreadCounty",
+    language: "Language",
+    analyzeFabric: "Analyze Fabric",
+    generating: "Generating Report...",
+    uploadPrompt: "Drag & drop your fabric image here",
+    recentReports: "Recent Reports",
+    noReports: "No reports found.",
+    confidence: "Confidence",
+    threadDensity: "Thread Density"
+  },
+  hi: {
+    dashboard: "डैशबोर्ड",
+    history: "इतिहास",
+    upload: "फैब्रिक अपलोड करें",
+    chatbot: "AI चैटबॉट",
+    analytics: "एनालिटिक्स",
+    compare: "तुलना करें",
+    logout: "लॉग आउट",
+    welcome: "ThreadCounty में आपका स्वागत है",
+    language: "भाषा",
+    analyzeFabric: "फैब्रिक का विश्लेषण करें",
+    generating: "रिपोर्ट जनरेट हो रही है...",
+    uploadPrompt: "अपनी फैब्रिक इमेज को यहां ड्रैग और ड्रॉप करें",
+    recentReports: "हाल की रिपोर्ट",
+    noReports: "कोई रिपोर्ट नहीं मिली।",
+    confidence: "आत्मविश्वास",
+    threadDensity: "धागा घनत्व"
+  },
+  mr: {
+    dashboard: "डॅशबोर्ड",
+    history: "इतिहास",
+    upload: "फॅब्रिक अपलोड करा",
+    chatbot: "AI चॅटबॉट",
+    analytics: "विश्लेषण",
+    compare: "तुलना करा",
+    logout: "लॉग आउट",
+    welcome: "ThreadCounty मध्ये आपले स्वागत आहे",
+    language: "भाषा",
+    analyzeFabric: "फॅब्रिकचे विश्लेषण करा",
+    generating: "अहवाल तयार करत आहे...",
+    uploadPrompt: "तुमची फॅब्रिक इमेज येथे ड्रॅग आणि ड्रॉप करा",
+    recentReports: "अलीकडील अहवाल",
+    noReports: "कोणतेही अहवाल सापडले नाहीत.",
+    confidence: "आत्मविश्वास",
+    threadDensity: "धागा घनता"
+  },
+  te: {
+    dashboard: "డాష్‌బోర్డ్",
+    history: "చరిత్ర",
+    upload: "ఫాబ్రిక్ అప్‌లోడ్ చేయండి",
+    chatbot: "AI చాట్‌బాట్",
+    analytics: "విశ్లేషణలు",
+    compare: "పోల్చండి",
+    logout: "లాగ్ అవుట్",
+    welcome: "ThreadCounty కు స్వాగతం",
+    language: "భాష",
+    analyzeFabric: "ఫాబ్రిక్ విశ్లేషించండి",
+    generating: "నివేదికను రూపొందిస్తోంది...",
+    uploadPrompt: "మీ ఫాబ్రిక్ చిత్రాన్ని ఇక్కడ లాగండి మరియు వదలండి",
+    recentReports: "ఇటీవలి నివేదికలు",
+    noReports: "నివేదికలు కనుగొనబడలేదు.",
+    confidence: "విశ్వాసం",
+    threadDensity: "థ్రెడ్ సాంద్రత"
+  }
+};
+
+export type Language = keyof typeof dictionaries;
+export type TranslationKey = keyof typeof dictionaries.en;

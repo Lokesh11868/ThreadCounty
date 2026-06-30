@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+supabase
+pydantic
+python-dotenv
+python-multipart
+opencv-python-headless
+numpy
+scipy
+google-genai
+requests
