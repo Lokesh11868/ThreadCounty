@@ -55,7 +55,7 @@ class SubscriptionUpdate(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Backend Server Running Succesfully! Please Refer Github Repo to Find LIVE DEMO"}
+    return {"message": "Please Refer Github Repo to Find 'LIVE DEMO' Link! Backend Server Running Succesfully! "}
 
 @app.get("/api/health")
 def health_check():
